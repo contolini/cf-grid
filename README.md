@@ -60,7 +60,7 @@ _(Coming soon)_
 
 ## Examples
 
-Examples can be found in the archive at `dist/example.zip`. Note: They use less.js to compile their LESS. You'll need to run a server locally to avoid cross-origin complaints. Try `python -m SimpleHTTPServer` in the example's directory.
+Examples can be found in the archive at `dist/example.zip`. Note: They use less.js to compile their LESS. You'll need to run a server locally to avoid cross-origin complaints. Try `python -m SimpleHTTPServer` in the example's directory. There is a an example [using Bootstrap](https://github.cfpb.gov/contolini/ghost/blob/master/src/examples/bootstrap/static/example.less) and another with [unstyled html](https://github.cfpb.gov/contolini/ghost/blob/master/src/examples/employee/static/example.less).
 
 Ghost is used by [Qui](https://github.cfpb.gov/pages/contolini/qui) (<a href="https://github.cfpb.gov/contolini/qui/blob/master/src/less/main.less">stylesheet</a>).
 
