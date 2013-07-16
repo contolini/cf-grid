@@ -47,10 +47,11 @@ Using LESS that looks like this:
 }
 ```
 
+**Note:** This functionality is optional and you can use Ghost in legacy mode.
 
 ## Getting Started
 
-Grab `ghost.less` from the `dist` directory and @import it at the top of your application's LESS stylesheet.
+Grab `ghost.less` from the `dist` directory and @import it at the top of your application's LESS stylesheet. If you want to support IE6/7, ensure `boxsizing.htc` is in the same directory as your compiled stylesheet.
 
 
 ## Documentation
@@ -84,13 +85,12 @@ Ghost is used by [Qui](https://github.cfpb.gov/pages/contolini/qui)
 * **Compiled CSS can be very large** – It is essential that we begin serving gzipped assets on our servers, which 
   can reduce the filesize of repetitive CSS dramatically (on the order of 90%).
 
-
 ## Contributing
 
 Edit the files in `src` and run `grunt build` whenever you're ready to compile LESS and automagically copy 
 appropriate source files into the `dist` dir, archiving the examples in a .zip. Running `grunt` with no options 
 will start a server on port 8000 (for testing the 
-[examples](https://github.cfpb.gov/front/ghost/tree/master/src/examples) locally) and automatically `build` 
+[examples](https://github.cfpb.gov/contolini/ghost/tree/master/src/examples) locally) and automatically `build` 
 whenever a source file is changed.
 
 In lieu of a formal styleguide, take care to maintain the existing coding style.
@@ -98,13 +98,13 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+ * 2013-07-16   v0.5.3   Add missing boxsizing.htc.
  * 2013-07-15   v0.5.2   Update README to be accurate and add list of known issues. Remove a little bit of outdated stuff from ghost.less.
  * 2013-07-15   v0.5.1   Moved repo and updated documentation links accordingly.
  * 2013-07-13   v0.5.0   Total rewrite to use box-sizing and padding instead of calc(). Compile examples' LESS.
  * 2013-07-12   v0.4.2   Add proper git tag.
  * 2013-07-11   v0.4.1   Bump package.json version to aid dependency management.
  * 2013-07-01   v0.4.0   Add grunt-cfpb-internal to manage semantic versioning.
-
 
 ## License
 
@@ -121,4 +121,4 @@ For further details, please see: http://www.consumerfinance.gov/developers/sourc
 
 ---
 
-*This file was generated on Mon Jul 15 2013 14:34:04.*
+*This file was generated on Tue Jul 16 2013 14:17:15.*
