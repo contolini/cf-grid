@@ -98,6 +98,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+ * 2013-07-17   v0.6.0   Removed overflow:hidden from wrapper.
  * 2013-07-16   v0.5.3   Add missing boxsizing.htc.
  * 2013-07-15   v0.5.2   Update README to be accurate and add list of known issues. Remove a little bit of outdated stuff from ghost.less.
  * 2013-07-15   v0.5.1   Moved repo and updated documentation links accordingly.
@@ -121,4 +122,4 @@ For further details, please see: http://www.consumerfinance.gov/developers/sourc
 
 ---
 
-*This file was generated on Tue Jul 16 2013 14:17:15.*
+*This file was generated on Wed Jul 17 2013 02:17:08.*
