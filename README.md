@@ -47,10 +47,11 @@ Using LESS that looks like this:
 }
 ```
 
+**Note:** This functionality is optional and you can use Ghost in legacy mode.
 
 ## Getting Started
 
-Grab `ghost.less` from the `dist` directory and @import it at the top of your application's LESS stylesheet.
+Grab `ghost.less` from the `dist` directory and @import it at the top of your application's LESS stylesheet. If you want to support IE6/7, ensure `boxsizing.htc` is in the same directory as your compiled stylesheet.
 
 
 ## Documentation
@@ -97,6 +98,8 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+ * 2013-07-17   v0.6.0   Removed overflow:hidden from wrapper.
+ * 2013-07-16   v0.5.3   Add missing boxsizing.htc.
  * 2013-07-15   v0.5.2   Update README to be accurate and add list of known issues. Remove a little bit of outdated stuff from ghost.less.
  * 2013-07-15   v0.5.1   Moved repo and updated documentation links accordingly.
  * 2013-07-13   v0.5.0   Total rewrite to use box-sizing and padding instead of calc(). Compile examples' LESS.
@@ -119,4 +122,4 @@ For further details, please see: http://www.consumerfinance.gov/developers/sourc
 
 ---
 
-*This file was generated on Sun Jul 21 2013 14:31:44.*
+*This file was generated on Sun Jul 21 2013 14:33:26.*
