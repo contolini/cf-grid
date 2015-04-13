@@ -1,4 +1,7 @@
 {
+  "name": "cf-grid",
+  "version": "0.9.3",
+  "description": "A Less-based grid system using parametric mixins. Part of Capital Framework.",
   "devDependencies": {
     "cf-component-demo": "git://github.com/cfpb/cf-component-demo.git#0.9.1",
     "cf-grunt-config": "~0.3.1",
@@ -8,5 +11,11 @@
     "load-grunt-tasks": "~2.0.0",
     "node.extend": "~1.0.10",
     "time-grunt": "~1.0.0"
-  }
+  },
+  "dependencies": {
+    "box-sizing-polyfill": "^0.1.0",
+    "normalize-css": "^2.3.1",
+    "normalize-legacy-addon": "^0.1.0"
+  },
+  "main": "src/cf-grid.less"
 }
